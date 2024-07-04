@@ -25,7 +25,7 @@ public class Bot extends TelegramLongPollingBot {
     public Bot(MessagesRepository messagesRepository,
                List<ChatCommand> commands
     ) {
-        super("7492936114:AAF2lx4XpOB0wNh_afT9AcGr4tUftL5Jrm4");
+        super("???");
         this.CHAT_COMMANDS = setUpCommands(commands);
         this.messagesRepository = messagesRepository;
 
@@ -53,7 +53,7 @@ public class Bot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "test_onesuparmy_bot";
+        return "???";
     }
 
     private Map<String, ChatCommand> setUpCommands(List<ChatCommand> commands) {
